@@ -11,7 +11,6 @@ import matplotlib.pyplot as plt
 
 plt.ioff()
 import matplotlib.style as style
-import matplotlib.backends.backend_qt5agg.FigureCanvasQTAgg as FigureCanvas
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas, NavigationToolbar2QT as NavigationToolbar
 from PyQt5 import QtGui, QtWidgets, QtCore
 from PyQt5.QtCore import Qt, QThread, QObject, pyqtSignal, pyqtSlot
